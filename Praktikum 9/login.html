@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 1 Login Authentication</title>
+    <style>
+      h1 {
+        font-size: 23px;
+      }
+      body {
+        background: pink;
+        color: #333;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      #box {
+        position: fixed;
+        left: 30%;
+        border-radius: 8px;
+        background: white;
+        width: 300px;
+        margin: 15px auto;
+        padding: 20px 40px;
+        display: block;
+        border: 1px solid #ddd;
+        box-shadow: 2px 2px 20px #ddd;
+      }
+
+      body input {
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        width: 95%;
+        border: 1px solid #ddd;
+      }
+
+      button {
+        background: #07acec;
+        color: #fff;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      function starLog() {
+        let user = document.getElementById('username').value;
+        let pass = document.getElementById('password').value;
+        if (user == 'salsabila@gmail.com' && pass == 'sasa24') {
+          alert('Login Berhasil');
+          window.location = 'soal1_loginberhasil.html';
+        } else if (user == '' && pass == '') {
+          alert('Username & Password Tidak Boleh Kosong');
+        } else if (user == 'salsabila@gmail.com' && pass != 'sasa24') {
+          alert('Password yang anda masukan salah !!');
+        } else if (user != 'salsabila@gmail.com' && pass != 'sasa24') {
+          alert('Username atau Password yang anda masukan salah !!');
+        } else if (user != 'salsabila@gmail.com' && pass != 'sasa24') {
+          alert('Username atau Password yang anda masukan salah !!');
+        }
+      }
+    </script>
+
+    <div id="box">
+      <h1>Login Authentication</h1>
+      <form action="#login">
+        <input type="text" id="username" placeholder="salsabila@gmail.com" /><br />
+        <input type="password" id="password" placeholder="sasa24" />
+        <br />
+        <button onclick="starLog()">Login</button>
+      </form>
+    </div>
+  </body>
+</html>

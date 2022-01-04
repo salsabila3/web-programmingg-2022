@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="end">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://blackgoosebistro.com/pizza.php" method="post">
+    <h1>
+        Black Goose Bistro | Pizza-on-Demon
+    </h1>
+
+        <p>our 12" wood-fired pizza are available for delivery. Build your</p>
+        <p>costum pizza and we'll delivery it within an hour.</p>
+    <br>
+    <h2>your Information</h2>
+    <table>
+        <tr>
+            <td><label for="name">Name</label></td>
+            <td> : </td>
+            <td> <input type="text" id="name" name="costumername"></td>
+        </tr>
+        <tr>
+            <td><label for="Address">Address</label></td>
+            <td> : </td>
+            <td><input type="text"name="address" id="address"></td>
+        </tr>
+        <tr>
+            <td><label for="Telephone">Telephone Number</label></td>
+            <td> : </td>
+            <td><input type="text" name="Telephone" id="Number"></td>
+        </tr>
+        <tr>
+            <td><label for="Email">Email</label></td>
+            <td> : </td>
+            <td><input type="text" name="Email" id="Email"></td>
+        </tr>
+        <tr>
+            <td><label for="Instruction"> Delivery instruction</label></td>
+            <td> : </td>
+            <td><textarea name="Instruction" id="instruction" cols="30" rows="10"></textarea></td>
+        </tr>
+    </table>
+    <form action="/action_page.php">
+    <h2>Design Your Dream Pizza</h2>
+    <p>Pizza specs</p>
+    <p>Crust (Choose One) : <input type="text" list="Pizza" name="Crust"></p>
+    <datalist id="Pizza">
+        <option value="Classic White"></option>
+        <option value="Multigrain"></option>
+        <option value="Cheese-stuffed crust"></option>
+        <option value="Gluten-free"></option>
+    </datalist>
+    <p>Toppings (Choose as many as you want) :</p>
+        <input type="checkbox" id="food1" name="food1"> 
+        <label for="food1"> Red Sauce </label><br>
+        <input type="checkbox" id="food2" name="food2">
+        <label for="food2">White Sauce</label><br>
+        <input type="checkbox" id="food3" name="food3">
+        <label for="food3">Mozzarella cheese</label><br>
+        <input type="checkbox" id="food4" name="food4">
+        <label for="food4">Pepperoni</label><br>
+        <input type="checkbox" id="food5" name="food5">
+        <label for="food5">Mushrooms</label><br>
+        <input type="checkbox" id="food6" name="food6">
+        <label for="food6">Peppers</label><br>
+        <input type="checkbox" id="food7" name="food7">
+        <label for="food7">Anchovies</label><br>
+    <p>Number</p>
+    <label> Number many pizza <input type="number" name="Pizza" min="1" max="6"></label>
+    <table>
+        <tr>
+            <th><input type="submit" value="Bring me a pizza!"></th>
+            <th><input type="reset" value="Reset"></th>
+        </tr>
+    </table>
+    </form>
+    </form>
+</body>
+</html>

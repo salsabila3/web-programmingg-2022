@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+.top {
+    height: 100px;
+    width: 900px;
+    margin: auto;
+}
+
+.atas {
+    height: 50px;
+    width: 800px;
+    float: left;
+    margin: 20px;
+}
+.yellow {
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+
+}
+
+.orange {
+    width: 670px;
+    height: 50px;
+    background-color: orange;
+    float: left;
+}
+
+.row {
+    width: 900px;
+    height: 550px;
+    margin: auto;
+}
+
+.colum {
+    width: 800px;
+    height: 500px;
+    margin: 20px;
+    float: left;
+}
+
+.green {
+    width: 150px;
+    height: 500px;
+    background-color: green;
+}
+
+.abu {
+    width: 450px;
+    height: 500px;
+    background-color: #808080;
+    float: left;
+}
+
+.blue {
+    width: 150px;
+    height: 500;
+    background-color: blue;
+    float: right;
+}
+
+.bawah {
+    width: 860px;
+    height: 50px;
+    background-color: blue;
+    margin: auto;
+}
+

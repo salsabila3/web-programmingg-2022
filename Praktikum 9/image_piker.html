@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 4 Image picker</title>
+</head>
+<body>
+    <style>
+        *{
+
+            margin-top: auto;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+    <select name="" id="daftar" onchange="tampil()">
+        <option value="">-Pilih Hewan-</option>
+        <option value="kucing">Kucing</option>
+        <option value="kelinci">kelinci</option>
+        <option value="kupu">Kupu-Kupu</option>
+        <option value="Gorila">Gorila</option>
+        <option value="panda">Panda</option>
+        <option value="kangguru">Kangguru</option>
+        <option value="kuda">Kuda</option>
+    </select>
+    <div id="hasil"></div>
+
+    <script>
+        let daftar = document.getElementById("daftar")
+        let hasil = document.getElementById("hasil")
+
+        function tampil(){
+            switch (daftar.value) {
+                case "kucing":
+                hasil.innerHTML = '<img src="https://cdns.klimg.com/merdeka.com/i/w/news/2021/06/29/1323982/540x270/harga-kucing-anggora-kecil-dan-dewasa-berikut-cara-merawatnya.jpg" alt="">'
+                alert("ini adalah gambar Kucing")
+                break;
+
+                case "kelinci":
+                hasil.innerHTML = '<img src="https://asset.kompas.com/crops/00Bui5wlErIQHh0DcQkevgB5xgg=/192x130:1728x1154/750x500/data/photo/2021/09/29/615414215159d.jpg" alt="">'
+                alert("ini adalah gambar Harimau")
+                break;
+
+                case "kupu":
+                hasil.innerHTML = '<img src="https://assets-a1.kompasiana.com/items/album/2021/04/08/wallpaper-kupu-kupu-cantik-22-606e468d8ede481b6d515002.jpg?t=o&v=410" alt="">'
+                alert("ini adalah gambar elang")
+                break;
+
+                case "Gorila":
+                hasil.innerHTML = '<img src="https://statik.tempo.co/data/2021/01/12/id_993500/993500_720.jpg" alt="">'
+                alert("ini adalah gambar Kelinci")
+                break;
+
+                case "panda":
+                hasil.innerHTML = '<img src="https://asset.kompas.com/crops/ncgvDkq11ovx_624dxbv483x_iY=/0x0:648x432/750x500/data/photo/2021/10/05/615c371c61b81.jpg" alt="">'
+                alert("ini adalah gambar Panda")
+                break;
+
+                case "kangguru":
+                hasil.innerHTML = '<img src="https://statik.tempo.co/data/2020/08/21/id_961488/961488_720.jpg" alt="">'
+                alert("ini adalah gambar Kangguru")
+                break;
+
+                case "kuda":
+                hasil.innerHTML = '<img src="https://statik.tempo.co/data/2018/02/26/id_687179/687179_720.jpg" alt="">'
+                alert("ini adalah gambar Kuda")
+                break;
+
+                default:
+                    hasil.innerHTML =""
+            }
+        }
+    </script>
+</body>
+</html>
