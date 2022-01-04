@@ -1,0 +1,147 @@
+.tab1 {
+    height: 10cm; 
+    width: 16cm; 
+    margin: 0 auto;
+    border: 2px solid black;
+    border-collapse: collapse; 
+}
+
+.td1 {
+    border: 2px solid black;
+    background-color: white;
+}
+
+.div1 {
+    padding: 10px 10px;
+}
+
+.sm1 {
+    width: 130px;
+}
+
+.cago {
+    font-size: 12px;
+}
+
+.cart1 {
+    text-align: right;
+    width: 200px;
+}
+
+.tab2 {
+    padding: 5px;
+}
+
+.div2 {
+    padding: 10px;
+}
+
+.ty {
+    font-size: large;
+}
+
+.tab3 {
+    font-size: small; padding: 5px;
+}
+
+.cols1 {
+    font-size: 18px;
+}
+
+.paymet {
+    padding-bottom: 25px;
+}
+
+.div3 {
+    padding: 10px 10px;
+}
+
+.fiset {
+    background-color: bisque;
+    border: none;
+}
+
+.tab4 {
+    font-size: medium;
+}
+
+.sum1 {
+    padding: 1px 0;
+}
+
+.subt {
+    width: 200px;
+}
+
+.rp {
+    text-align: right;
+}
+
+.shipp {
+    text-align: right;
+}
+
+.taxes {
+    text-align: right;
+}
+
+.cols2 {
+    color: white;
+}
+
+.gicard {
+    font-size: small;
+}
+
+.cols3 {
+    text-align: center;
+}
+
+.subm {
+    width: 120px;
+}
+
+.href1{
+    text-decoration: none; 
+    color: white;
+}
+
+.div4 {
+    width: 70px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 2px 2px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.td2 {
+    border: 2px solid black;
+}
+
+.sina{
+    font-size: 13.5px;
+}
+
+.td3 {
+    text-align: right;
+    width: 280px;
+    font-size: 13.5px;
+}
+
+.tab5 {
+    border: 1px solid black;
+    margin-left: 30mm;
+}
+
+.plac{
+    width: 95px;
+    border: 1px;
+}
+
+.td4 {
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+    width: 75px;
+}

@@ -1,0 +1,73 @@
+.body {
+    width: 38em;
+    margin: 0 auto;
+}
+
+.foto-profile {
+    width: 200px;
+    margin-left: 2em;
+}
+
+.th {
+    font-size: 5em;
+    text-align: left;
+}
+
+.catego {
+    text-align: right;
+    margin-bottom: 11em;
+}
+
+.catego span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.paragraf {
+    padding-bottom: 5em;
+}
+
+.paragraf h3 {
+    padding: 2px 15px;
+}
+
+.paragraf p {
+    padding: 2px 15px;
+}
+
+.vidio {
+    float: left;
+    border: 2px solid black;
+    margin-left: 1em;
+}
+
+.vidio video {
+    width: 170px;
+}
+
+.img {
+    float: left;
+    border: 2px solid black;
+    padding: 5px;
+    margin-left: 1em;
+}
+
+.img img {
+    padding: 2px 2px;
+    width: 70px;
+    float: left;
+}
+
+.attac {
+    float: left;
+    margin-left: 1em;
+}
+
+.attac fieldset {
+    border: 2px solid black;
+}
+
+.link {
+    width: 14em;
+    height: 8em;
+}

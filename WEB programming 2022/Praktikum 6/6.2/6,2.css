@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+#main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+article {
+    flex: 1;
+}
+
+nav, aside {
+    flex: 0 9 20vw;
+}
+
+nav {
+    background: pink;
+}
+
+aside {
+    background: aqua;
+}
+
+header, footer {
+    background: khaki;
+    height: 20vh;
+}
+
+header, footer, article, nav, aside {
+    padding: 1em;
+}
+
+article, aside {
+    height: 60vh;
+}
+
+.container {
+    display: flex;
+}
+
+.colum {
+    display: flex;
+}

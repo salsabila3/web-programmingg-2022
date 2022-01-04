@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 3 Menghitung biaya parkir</title>
+</head>
+<body>
+
+    <h1>Parkir</h1>
+    <table>
+        <tr>
+            <th>Jam Masuk</th>
+            <th>Jam Keluar</th>
+            <th></th>
+            <th>Biaya</th>
+        </tr>
+        <tr>
+            <th><input type="number" name="" value="" id="jmasuk" min="0" max="24"></th>
+            <th><input type="number" name="" value="" id="jkeluar" min="0" max="24"></th>
+            <th><button onclick="total()">Submit</button></th>
+            <th id="total"></th>
+        </tr>
+    </table>
+
+
+    <script>
+            // Parkir
+            function total() {
+            let masuk = document.getElementById("jmasuk").value;
+            let keluar = document.getElementById("jkeluar").value;
+            let lama_parkir = keluar - masuk;
+            let biaya = 0;
+            const biaya_awal = 3000;
+            const biaya_perjam = 1000;
+            if (lama_parkir <= 2) {
+                let total = document.getElementById("total");
+                total.innerHTML = biaya_awal;
+            } else {
+                let total_jam = lama_parkir - 2;
+                let hasil = biaya_awal + (total_jam * biaya_perjam);
+                let total = document.getElementById("total");
+                total.innerHTML = hasil;
+            }
+        }
+    </script>
+</body>
+</html>

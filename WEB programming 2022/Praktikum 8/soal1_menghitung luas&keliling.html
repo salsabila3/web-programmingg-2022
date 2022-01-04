@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 1 Menghitung luas dan keliling lingkaran</title>
+</head>
+<body>
+    <h3>Menghitung Luas & Keliling Lingkaran</h3>
+                <input type="number" placeholder="Jari-Jari" id="jari2" value="">
+                <br>
+                <input type="number" placeholder="Hasilnya adalah" id="hasil" value="">
+
+                <br>
+                <br>
+            <button type="button" onclick="luas()">Luas</button>
+            <button type="button" onclick="keliling()">Keliling</button>
+
+    <script>
+        let jari2 = document.getElementById("jari2")
+        let diameter = document.getElementById("diameter")
+        let hasil = document.getElementById("hasil")
+
+        function luas(){
+            let luas = 3.14 * jari2.value * jari2.value
+            hasil.value = luas
+        }
+
+        function keliling(){
+            let diameter = 2 * jari2.value
+            let keliling = 3.14 * diameter
+            hasil.value = keliling
+        }
+    </script>
+</body>
+</html>
